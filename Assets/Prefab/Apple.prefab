@@ -88,6 +88,10 @@ PrefabInstance:
       propertyPath: points
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8239530367622211902, guid: 84ac49ada676f554ca2bb4f960178757, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 2865979950522514905}
     - target: {fileID: 8280968851730387382, guid: 84ac49ada676f554ca2bb4f960178757, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -97,3 +101,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84ac49ada676f554ca2bb4f960178757, type: 3}
+--- !u!82 &2865979950522514905 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4809075113866620838, guid: 84ac49ada676f554ca2bb4f960178757, type: 3}
+  m_PrefabInstance: {fileID: 7312515122452877951}
+  m_PrefabAsset: {fileID: 0}

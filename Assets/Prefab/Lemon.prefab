@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lemon
       objectReference: {fileID: 0}
+    - target: {fileID: 498178472352134902, guid: 4ab5284337fed5d4eae241ac81a97d94, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1261903810511295385, guid: 4ab5284337fed5d4eae241ac81a97d94, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -80,6 +84,10 @@ PrefabInstance:
       propertyPath: points
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3894513953938681966, guid: 4ab5284337fed5d4eae241ac81a97d94, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 3195849905470455630}
     - target: {fileID: 3944959431637043430, guid: 4ab5284337fed5d4eae241ac81a97d94, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -97,3 +105,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ab5284337fed5d4eae241ac81a97d94, type: 3}
+--- !u!82 &3195849905470455630 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 498178472352134902, guid: 4ab5284337fed5d4eae241ac81a97d94, type: 3}
+  m_PrefabInstance: {fileID: 3075978477837715896}
+  m_PrefabAsset: {fileID: 0}

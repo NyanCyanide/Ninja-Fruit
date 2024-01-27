@@ -72,6 +72,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kiwi
       objectReference: {fileID: 0}
+    - target: {fileID: 3195849905470455630, guid: 4b2013965245d6d438155768437b71fe, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3669486874014322254, guid: 4b2013965245d6d438155768437b71fe, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 

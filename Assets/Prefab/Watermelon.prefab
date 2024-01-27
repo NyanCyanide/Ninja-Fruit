@@ -28,6 +28,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 9d425867ffdd6614d918273ebe7d45be, type: 2}
+    - target: {fileID: 6415327375843104384, guid: d4c793ad4b2cc6c4db358271405e4f14, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6872065398472306223, guid: d4c793ad4b2cc6c4db358271405e4f14, type: 3}
       propertyPath: m_Name
       value: Watermelon
@@ -40,6 +44,10 @@ PrefabInstance:
       propertyPath: points
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 7629703749609263128, guid: d4c793ad4b2cc6c4db358271405e4f14, type: 3}
+      propertyPath: source
+      value: 
+      objectReference: {fileID: 498178472352134902}
     - target: {fileID: 9148150043582861089, guid: d4c793ad4b2cc6c4db358271405e4f14, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5
@@ -97,3 +105,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4c793ad4b2cc6c4db358271405e4f14, type: 3}
+--- !u!82 &498178472352134902 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 6415327375843104384, guid: d4c793ad4b2cc6c4db358271405e4f14, type: 3}
+  m_PrefabInstance: {fileID: 6912516270205968502}
+  m_PrefabAsset: {fileID: 0}

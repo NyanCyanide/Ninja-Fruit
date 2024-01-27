@@ -6,6 +6,7 @@ public class Fruit : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject whole;
+    public AudioSource source;
     public GameObject sliced;
 
     private Rigidbody fruitRigidbody;
@@ -15,6 +16,7 @@ public class Fruit : MonoBehaviour
     public int points = 1;
 
     private void Awake() {
+        // source = GetComponent<AudioSource>();
         fruitRigidbody = GetComponent<Rigidbody>();
         fruitCollider = GetComponent<Collider>();
         juiceParticleEffect = GetComponentInChildren<ParticleSystem>();
@@ -30,6 +32,8 @@ public class Fruit : MonoBehaviour
 
         fruitCollider.enabled = false;
         juiceParticleEffect.Play();
+        source.Play();
+
 
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         sliced.transform.rotation = Quaternion.Euler(0f, 0f, angle);
